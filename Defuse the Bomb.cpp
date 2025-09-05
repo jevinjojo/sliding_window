@@ -5,7 +5,7 @@ public:
         vector<int> result(n, 0); // Initialize result vector with zeros
         if (k == 0) {
             return result; // If k is 0, return result which is already filled with zeros
-        }
+        }// this is a good problem
         int start, end, sum = 0;
         if (k > 0) {
             start = 1;
